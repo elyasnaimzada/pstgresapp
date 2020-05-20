@@ -23,5 +23,4 @@ AdminSite.index_title = "Jobs Reconcile system"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', admin.site.urls),
 ]

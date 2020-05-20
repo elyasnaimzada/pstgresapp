@@ -5,6 +5,7 @@
       <w>externalno</w>
       <w>invoiceno</w>
       <w>sordescription</w>
+      <w>statusinfo</w>
       <w>tndempostgres</w>
       <w>towa</w>
       <w>transtype</w>
