@@ -17,8 +17,8 @@ class Jobs(models.Model):
     gst = models.CharField(max_length=200)
     total = models.CharField(max_length=200)
     notes = models.TextField(max_length=None, null=True)
-    status = models.BooleanField("Is Charge back valid", null=True)
-    reversed = models.BooleanField("Charged Back is Reversed", null=True)
+    status = models.BooleanField("Charge valid", null=True)
+    reversed = models.BooleanField(" Reversed", null=True)
 
     def __str__(self):
         return self.location
